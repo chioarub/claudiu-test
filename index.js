@@ -7,7 +7,7 @@ app.use(bodyParser.json())
 
 app.get('/test', (req, res) => {
     console.log('----->>>>>', req.query);
-    res.send('Hello World Claudiu!')
+    res.send('Hello World Claudiu how are you?')
 });
 
 app.listen(9999, 'localhost', () => {
